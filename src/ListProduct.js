@@ -8,10 +8,9 @@ function ListProduct(props) {
     useEffect(()=>{
         dispatch(fetchProducts());
     },[dispatch])
-    console.log("products: ",products);
     return (
         <div class="row">
-        <h2>Product List</h2>
+        <h2>Danh sach san pham</h2>
         <table class="table">
           <thead>
             <tr>
